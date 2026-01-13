@@ -35,9 +35,9 @@ class EquipmentConfig:
                 'has_sides': True,
                 'angle_fixed': False,
                 'default_angles': {
-                    'LP1': {'side1': 336, 'side2': 180},
-                    'LP2': {'side1': 336, 'side2': 180},
-                    'LP3': {'side1': 180, 'side2': 26}
+                    'LP1': {'side1': 51, 'side2': 255},
+                    'LP2': {'side1': 51, 'side2': 255},
+                    'LP3': {'side1': 255, 'side2': 101}
                 },
                 'supports_thk': False,
                 'units': ['TAKP851', 'TAKP852', 'TAKP861', 'TAKP863', 'TAKP864', 'TAKP865', 'TAKP866', 'TAKP867', 'TAKP853']
@@ -46,9 +46,9 @@ class EquipmentConfig:
                 'has_sides': True,
                 'angle_fixed': False,
                 'default_angles': {
-                    'LP1': {'side1': 336, 'side2': 180},
-                    'LP2': {'side1': 336, 'side2': 180},
-                    'LP3': {'side1': 180, 'side2': 26}
+                    'LP1': {'side1': 51, 'side2': 255},
+                    'LP2': {'side1': 51, 'side2': 255},
+                    'LP3': {'side1': 255, 'side2': 101}
                 },
                 'supports_thk': False,
                 'side_names': {'side1': 'Side1', 'side2': 'Side2'},
@@ -82,9 +82,9 @@ class EquipmentConfig:
         
         self.new_efem_units = ['TAKP867', 'TAKP853', 'TATP874']
         self.new_efem_angles = {
-            'LP1': {'side1': 336, 'side2': 220},
-            'LP2': {'side1': 336, 'side2': 220},
-            'LP3': {'side1': 140, 'side2': 24}
+            'LP1': {'side1': 51, 'side2': 295},
+            'LP2': {'side1': 51, 'side2': 295},
+            'LP3': {'side1': 215, 'side2': 99}
         }
         
         # TEAP360 특별 처리 (TES에 속하지만 THK 지원)
